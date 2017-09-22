@@ -3,7 +3,7 @@ package lesson3;
 import java.util.ArrayList;
 
 public class Constructor {
-    private String firstName;
+    final String firstName;
     private String lastName;
     private String separator;
     private ArrayList<String> friends;
@@ -32,4 +32,5 @@ public class Constructor {
     public String getFriend(int index){
         return friends.get(index);
     }
+
 }

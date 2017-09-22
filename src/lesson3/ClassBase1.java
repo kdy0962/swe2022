@@ -12,5 +12,9 @@ public class ClassBase1 {
         Constructor c3 = new Constructor("kiwan","Maeng");
         System.out.println(c3.getName());
         System.out.println(c1.getFriend(0));
+
+        NoConst k = new NoConst();
+        System.out.println(k.getFirstName(c2));
+
     }
 }

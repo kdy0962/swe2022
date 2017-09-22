@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009f0ace-9e89-4938-a094-43530752fd51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson3/Child.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson3/ClassBase0.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson3/ClassBase1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson3/Constructor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson3/Parent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson3/NoConst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lesson3/Static.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lesson3/ClassBase1.java" afterPath="$PROJECT_DIR$/src/lesson3/ClassBase1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lesson3/Constructor.java" afterPath="$PROJECT_DIR$/src/lesson3/Constructor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassBase1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassBase1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson3/ClassBase1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="448">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -90,17 +89,43 @@
       <file leaf-file-name="Constructor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson3/Constructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="112">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Static.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lesson3/Static.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoConst.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson3/NoConst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding>
+                <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +157,10 @@
         <option value="$PROJECT_DIR$/src/lesson3/Child.java" />
         <option value="$PROJECT_DIR$/src/lesson3/Parent.java" />
         <option value="$PROJECT_DIR$/src/lesson3/ClassBase0.java" />
-        <option value="$PROJECT_DIR$/src/lesson3/Constructor.java" />
+        <option value="$PROJECT_DIR$/src/lesson3/NoConst.java" />
         <option value="$PROJECT_DIR$/src/lesson3/ClassBase1.java" />
+        <option value="$PROJECT_DIR$/src/lesson3/Constructor.java" />
+        <option value="$PROJECT_DIR$/src/lesson3/Static.java" />
       </list>
     </option>
   </component>
@@ -361,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505456772477</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1506054463161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506054463162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -374,9 +408,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24771689" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26598173" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24771689" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26598173" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -527,28 +561,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson3/Constructor.java">
+    <entry file="file://$PROJECT_DIR$/src/lesson3/ClassBase1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="448">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson3/NoConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson3/ClassBase1.java">
+    <entry file="file://$PROJECT_DIR$/src/lesson3/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="112">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson3/Static.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
