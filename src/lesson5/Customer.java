@@ -13,17 +13,17 @@ public class Customer {
         }
         @Override
         public Account getDepositAccount() {
-            return null;
+            return this.account;
         }
 
         @Override
         public Customer getCustomer() {
-            return null;
+            return this.customer;
         }
 
         @Override
         public Money getMoney() {
-            return null;
+            return this.money;
         }
     }
     public boolean deposit(Banker b, Currency c, int q){
