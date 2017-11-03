@@ -12,6 +12,6 @@ public class LocalClassTest {
     private static Random generator = new Random();
     public static IntSequence randomInts(int low, int high){
         return() -> low + generator.nextInt(high - low + 1);
-        
+
     }
 }
