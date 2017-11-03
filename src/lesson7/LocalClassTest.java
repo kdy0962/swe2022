@@ -11,13 +11,7 @@ public class LocalClassTest {
     }
     private static Random generator = new Random();
     public static IntSequence randomInts(int low, int high){
-        class RandomSequence implements IntSequence{
-
-            @Override
-            public int next() {
-                return low + generator.nextInt(high - low + 1);
-            }
-        }
-        return new RandomSequence();
+        return() -> low + generator.nextInt(high - low + 1);
+        
     }
 }
