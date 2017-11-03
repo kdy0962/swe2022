@@ -41,6 +41,12 @@ public class Main {
         Comparator<String> comp1 = new LengthComparator();
         Comparator<String> comp2 = (f,s) ->f.length() - s.length();
 
+        String[] friends = {"Peter","Paul","mary"};
+        Arrays.sort(friends, comp1);
+        for(int i=0;i<friends.length;i++){
+            System.out.println(friends[i]);
+        }
+
         Employee me = new Employee(100), you = new Employee(200);
         Employee[] members = {me, you};
         Arrays.sort(members, new EmployeeComparator());
