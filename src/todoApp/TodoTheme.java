@@ -1,16 +1,21 @@
 package todoApp;
 
 public class TodoTheme {
-    //field - color, icon
-    String color = "blue";
-    String icon = "mountain";
+    //field - Color, Icon
+    private String Color;
+    private String Icon;
 
-//    //setter of fields
-//    public void setColor(String color) {
-//        this.color = color;
-//    }
-//
-//    public void setIcon(String icon) {
-//        this.icon = icon;
-//    }
+    public enum Color {BLUE, ORANGE, PURPLE, GREEN, SKY};
+    public enum Icon {AIRPLANE, MOUNTAIN, HOUSE, BUS, TOWER};
+
+    TodoTheme(){
+        Color = Color.valueOf("BLUE");
+        Icon = Icon.valueOf("AIRPLANE");
+    }
+
+    public void setTheme(String Color, String Icon){
+        this.Color = Color;
+        this.Icon = Icon;
+    }
+
 }
