@@ -10,7 +10,6 @@ public class TodoTask {
     Date deadline;
     Date makingDate;
     Date noticeTime;
-    boolean isAlarm;
 
 
     //constructor
@@ -20,7 +19,6 @@ public class TodoTask {
         this.deadline = null;
         this.makingDate = new Date();
         this.noticeTime = null;
-        this.isAlarm =false;
     }
 
     public void setTaskName(String taskName) {
@@ -35,13 +33,15 @@ public class TodoTask {
         this.deadline = deadline;
     }
 
-    public void setAlarm(boolean alarm, Date noticeTime){
-        this.isAlarm = alarm;
-        if(isAlarm) this.noticeTime = noticeTime;
+    public void setAlarm(Date noticeTime){
+        this.noticeTime = noticeTime;
+    }
+    public boolean check(){
+        if(noticeTime==null) return false;
+        return true;
     }
     public void noticce(){
-
-        if(isAlarm&&this.noticeTime.before(new Date())){
+        if(check()&&this.noticeTime.before(new Date())){
             System.out.println("Oh!!!");
         }
     }

@@ -57,15 +57,39 @@ public class TodoList{
         this.listName = listName;
     }
 
+    public void printTasks(){
+        for(TodoTask task : taskList){
+            String completion = (task.complete) ? "- [0] " : "- [-] ";
+            if(task.check()){
+                System.out.println(completion+task.taskName+", "+task.deadline+", "+"알림");
+            }else{
+                System.out.println(completion+task.taskName+", "+task.deadline);
+            }
+        }
+    }
+
     //addTask & deleteTask methods
-    public ArrayList<TodoTask> addList(TodoTask newTask){
-        taskList.add(newTask);
+    public ArrayList<TodoTask> addTask(String taskName){
+        taskList.add(new TodoTask(taskName));
         return getTaskViewList();
     }
 
-    public ArrayList<TodoTask> deleteList(TodoTask theTask){
-        taskList.remove(theTask);
+    public ArrayList<TodoTask> deleteTask(String taskName){
+        findTask(taskName);
+        taskList.remove(taskName);
         return getTaskViewList();
+    }
+    public TodoTask findTask(String $taskName){
+        int index = 0;
+        if(!taskList.isEmpty()){
+            for(TodoTask task : taskList){
+                if (task.taskName.equals($taskName)){
+                    break;
+                }
+                else index++;
+            }
+        }
+        return taskList.get(index);
     }
 
     //setSort method
@@ -110,4 +134,10 @@ public class TodoList{
     public void rename(String newName){
         this.listName = newName;
     }
+
+    public String getListName(){
+        return this.listName;
+    }
+
+
 }

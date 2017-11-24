@@ -10,13 +10,13 @@ public class EnumTest {
             final Size size = $size;
             this.size = size;
         }
-        public boolean isFit(Person target){
-            final int base = target.height/2;
-            switch(this.size){
-                case SMALL:return base<50;
-                case MEDIUM:return base<70;
-            }
-
-        }
+//        public boolean isFit(Person target){
+//            final int base = target.height/2;
+//            switch(this.size){
+//                case SMALL:return base<50;
+//                case MEDIUM:return base<70;
+//            }
+//
+//        }
     }
 }
