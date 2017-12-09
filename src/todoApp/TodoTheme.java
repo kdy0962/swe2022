@@ -1,6 +1,8 @@
 package todoApp;
 
-public class TodoTheme {
+import java.io.Serializable;
+
+public class TodoTheme implements Serializable{
     //field - Color, Icon
     private String Color;
     private String Icon;

@@ -1,9 +1,10 @@
 package todoApp;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
 
-public class TodoTask {
+public class TodoTask implements Serializable{
     //field - 이름, 완료여부, 완료날짜
     String taskName;
     boolean complete;

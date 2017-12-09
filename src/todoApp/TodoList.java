@@ -1,11 +1,12 @@
 package todoApp;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class TodoList{
+public class TodoList implements Serializable{
     //TitleComparator, DeadlineComparator, MakingDateComparator, CompleteComparator
     static class TitleComparator implements Comparator<TodoTask>{
         @Override
